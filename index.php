@@ -15,7 +15,7 @@ if ($mode == 1) {
 }
 
 echo "<img src=img/".$image.".png alt=minion_name><br>";
-echo "<br>SERVER UUID: " . $_SERVER['UNIQUE_ID'];
+echo "<br>REMOTE ADDR: " . $_SERVER['REMOTE_ADDR'];
 echo "<br>SERVER ADDR: " . $_SERVER['SERVER_ADDR'];
 
 ?>
