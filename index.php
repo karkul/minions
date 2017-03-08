@@ -1,6 +1,6 @@
 <?php
 
-$mode = 1; // 0 = simple mode; 1 = multiple
+$mode = 0; // 0 = simple mode; 1 = multiple
 
 $minions = array("minions","Dave","Jerry","Kevin","Phil","Stuart","Tim");
 
