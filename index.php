@@ -14,7 +14,7 @@ if ($mode == 1) {
   $image = $minions[$id];
 }
 
-echo "<img src=img/".$image.".png alt=minion_name>"
+echo "<img src=img/".$image.".png alt=minion_name>";
 echo "SERVER NAME: " . $_SERVER['SERVER_NAME'];
 echo "SERVER ADDR: " . $_SERVER['SERVER_ADDR'];
 
