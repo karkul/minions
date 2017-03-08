@@ -1,6 +1,6 @@
 <?php
 
-$mode = 0; // 0 = simple mode; 1 = multiple
+$mode = 1; // 0 = simple mode; 1 = multiple
 
 $minions = array("minions","Dave","Jerry","Kevin","Phil","Stuart","Tim");
 
@@ -14,8 +14,8 @@ if ($mode == 1) {
   $image = $minions[$id];
 }
 
-echo "<img src=img/".$image.".png alt=minion_name>";
-echo "SERVER NAME: " . $_SERVER['SERVER_NAME'];
-echo "SERVER ADDR: " . $_SERVER['SERVER_ADDR'];
+echo "<img src=img/".$image.".png alt=minion_name><br>";
+echo "<br>SERVER UUID: " . $_SERVER['UNIQUE_ID'];
+echo "<br>SERVER ADDR: " . $_SERVER['SERVER_ADDR'];
 
 ?>
